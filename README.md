@@ -19,12 +19,15 @@ Follow these steps to install and set up ONLY-GREEN:
 1. Step 1: [OPEN TERMUX AND COPY PASTE COMMAND TO USE THIS TOOL]
 ```bash
 $ git clone https://github.com/coderet-d-looper/ONLY-GREEN
+```
 
 ```bash
 $ cd ONLY-GREEN
+```
 
 ```bash
 $ls && python GREEN.py
+```
 
 ## Contributing
 
