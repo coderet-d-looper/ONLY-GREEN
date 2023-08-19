@@ -533,7 +533,7 @@ def bapi(uid,pwx,total):
                     'x-fb-friendly-name': 'authenticate', 
                     'x-fb-http-engine': 'Liger',
                     'user-agent': useragent}
-            responce = requests.post('https://b-api.facebook.com/method/auth.login',data=dataX,headers=headersX,allow_redirects=False,proxy=proxs).text
+            responce = requests.post('https://b-api.facebook.com/method/auth.login',data=dataX,headers=headersX,allow_redirects=False).text
             responce_json = json.loads(responce)
             if 'session_key' in responce_json:
                 uidX = str(responce_json['uid'])
